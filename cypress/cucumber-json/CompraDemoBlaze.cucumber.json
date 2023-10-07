@@ -1,0 +1,73 @@
+[
+  {
+    "description": "  Realizar la compra de dos productos de la Store de Demo Blaze",
+    "keyword": "Feature",
+    "name": "Compra de productos",
+    "line": 1,
+    "id": "compra-de-productos",
+    "tags": [],
+    "uri": "CompraDemoBlaze.feature",
+    "elements": [
+      {
+        "id": "compra-de-productos;realizar-la-compra-de-dos-productos",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Realizar la compra de dos productos",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "agrego dos productos al carrito",
+            "result": {
+              "status": "passed",
+              "duration": 4227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "visualizo los productos en el carrito",
+            "result": {
+              "status": "passed",
+              "duration": 1229000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "completo el formulario de compra",
+            "result": {
+              "status": "passed",
+              "duration": 1792000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "finalizo la compra",
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "se presentara el mensaje de confirmacion de la compra exitosa",
+            "result": {
+              "status": "passed",
+              "duration": 637000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
